@@ -1,0 +1,204 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+}
+
+/* Navigation Bar Styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3448a1; /* Darker navigation bar color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  width: 100%; /* Make the navbar span the whole top bar */
+}
+
+ul li {
+  float: left;
+}
+
+ul li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+ul li a:hover,
+.dropdown:hover .dropbtn {
+  color: #777; /* Change only text color on hover */
+}
+
+ul li a.active {
+  background-color: #777; /* Distinct grey color for logout button */
+}
+
+ul li img {
+  width: 80px; /* Increased size */
+  height: auto;
+  vertical-align: middle;
+}
+
+ul li:last-child {
+  margin-left: auto; /* Pushes the logout button to the right */
+}
+
+ul li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #777; /* Change hover background color */
+  color: white; /* Change hover text color */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Alert Styles */
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+/* Container Styles */
+.container {
+  padding-top: 0px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.form-container img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.form-container label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-container select,
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container input[type="file"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+  width: calc(
+    100% - 20px
+  ); /* Make the width consistent with other input fields */
+  padding: 10px;
+  background-color: rgb(62, 89, 207);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: rgb(50, 70, 160);
+}
+
+.radio-container {
+  margin-bottom: 20px;
+}
+
+.radio-container label {
+  margin-right: 20px;
+}
+
+.file-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  width: calc(100% - 30px); /* Adjust width as needed */
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.icon {
+  cursor: pointer;
+  color: #777; /* Darker color for icons */
+  font-size: 20px;
+  line-height: 1;
+}
+
+.icon:hover {
+  color: #333; /* Darker color on hover */
+}
