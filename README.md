@@ -1,6 +1,6 @@
 # 📱 IESCO Mobile Allocation Management System
 
-This project was developed during my internship at IESCO (Islamabad Electric Supply Company). It is a **Mobile Allocation Management System** built using **PHP, MySQL, HTML, CSS, and JavaScript**, designed to manage mobile phone allocations for officers and meter readers.
+This project was developed at IESCO (Islamabad Electric Supply Company). It is a **Mobile Allocation Management System** built using **PHP, MySQL, HTML, CSS, and JavaScript**, designed to manage mobile phone allocations for officers and meter readers.
 
 ## 🔍 Features
 
